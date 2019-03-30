@@ -1,0 +1,41 @@
+{
+  "profile":{
+    "image":"images/icon1.jpg",
+    "name":"swaroop",
+    "designation":"student",
+    "phone":"9121501397"
+  },
+  "career":{
+    "info":"to work hard"
+  },
+"education":[
+  {
+  "qualification":"b tech",
+  "institute":"mits",
+  "percentage":"91%"
+},
+{
+  "qualification":"inter",
+  "institute":"narayana",
+  "percentage":"97%"
+},
+{
+  "qualification":"ssc",
+  "institute":"sviveka",
+  "percentage":"98%"
+}
+],
+"skills":[
+{
+  "name":"web  technologies",
+  "info":["html","css","js"]
+},
+{
+  "name":"database",
+  "info":["jdbc","sql","sql server"]
+}
+]
+
+
+
+}

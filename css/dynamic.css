@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+}
+.parent{
+  display:flex;
+  width:80%;
+  background: pink;
+  justify-content: space-around;
+  margin:1%;
+  padding:1%;
+}
+
+img{
+  width:80%;
+  /* height:20%; */
+}
+.left{
+  background: #86FF33  ;
+  width:25%;
+  margin:1%;
+  padding:1%;
+  text-align: center;
+}
+.right{
+  background: #86FF33  ;
+  width:62%;
+  margin:1%;
+  padding:1%;
+}
+@media screen and (max-width:800px){
+  body{
+    background-color: red;
+  }
+  .parent{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left{
+    width:95%;
+  }
+  .right{
+    width:95%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .parent{
+    flex-wrap: wrap;
+    background-color: green;
+  }
+  .left,.right{
+    width: 45%;
+  }
+  table{
+    font-size: 10px;
+  }
+}
